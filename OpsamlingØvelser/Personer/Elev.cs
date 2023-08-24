@@ -8,7 +8,6 @@ namespace OpsamlingØvelser.Personer
 {
     public sealed class Elev : Person
     {
-        public string Klassetrin { get; set; }
 
         public override string ShowMyIdentity()
         {

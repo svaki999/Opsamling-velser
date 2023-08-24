@@ -12,7 +12,7 @@ namespace OpsamlingØvelser.Animals
 
         public static void MakeSound()
         {
-            Console.WriteLine(" the cat says 'Meow!'");
+            Console.WriteLine("The cat says 'Meow!'");
             string myCurrentDir = System.IO.Directory.GetCurrentDirectory();
             string appDir = System.IO.Path.Combine(myCurrentDir, @"Animals\Cat.wav");
 
